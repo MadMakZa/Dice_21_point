@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Dice_21_point</string>
+    <string name="app_name">Кости 21</string>
     <string name="btn_bet">Ставка</string>
     <string name="btn_roll">Бросок</string>
     <string name="btn_stop">Хватит</string>
