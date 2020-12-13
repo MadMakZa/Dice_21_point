@@ -9,7 +9,6 @@
     tools:context=".MainActivity">
 
 
-
     <Button
         android:id="@+id/button_bet"
         android:layout_width="wrap_content"
@@ -17,6 +16,7 @@
         android:layout_marginStart="28dp"
         android:layout_marginLeft="28dp"
         android:layout_marginBottom="28dp"
+        android:onClick="onClickBet"
         android:text="@string/btn_bet"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -26,6 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="28dp"
+        android:onClick="onClickRoll"
         android:text="@string/btn_roll"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button_stop"
@@ -38,6 +39,7 @@
         android:layout_marginEnd="28dp"
         android:layout_marginRight="28dp"
         android:layout_marginBottom="28dp"
+        android:onClick="onClickStop"
         android:text="@string/btn_stop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
